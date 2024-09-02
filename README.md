@@ -16,10 +16,13 @@ The Cold Mail Generator is an end-to-end Python project designed to automate the
 1. **Enter Job Posting URL**: The user inputs the URL of the job posting they are interested in.
 2. **Web Scraping**: The program extracts relevant details such as job title, description, and qualifications from the job posting.
 3. **Content Processing**: The extracted data is vectorized and stored in ChromaDB, enabling efficient querying and matching.
-4. **Cold Mail Generation**: The LLaMA model is prompted with a template that generates a professional cold email, introducing the user's company and its technical expertise in relation to the job posting.
+4. **Cold Mail Generation**: The LLaMA model is called using Groq API and prompted with a template that generates a professional cold email, introducing the user's company and its technical expertise in relation to the job posting.
 
 ## Interface of the ColdMailGenerator 
-![Interface]((https://github.com/hari250823/private/blob/main/1.png))
+![Interface](https://github.com/hari250823/private/blob/main/1.png)
+
+## Output
+![Output](https://github.com/hari250823/private/blob/main/2..png)
 
 ## Requirements
 
