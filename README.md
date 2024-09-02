@@ -18,15 +18,8 @@ The Cold Mail Generator is an end-to-end Python project designed to automate the
 3. **Content Processing**: The extracted data is vectorized and stored in ChromaDB, enabling efficient querying and matching.
 4. **Cold Mail Generation**: The LLaMA model is prompted with a template that generates a professional cold email, introducing the user's company and its technical expertise in relation to the job posting.
 
-### Example Output
-
-The generated email might look something like this:
-
-> I came across the job description for Lead Software Engineer - ITC at NIKE Inc. and was impressed by the company's commitment to innovation and excellence. As a representative of XYZ, an AI & Software Consulting company, I am excited to introduce our team's capabilities in fulfilling your technical requirements.
->
-> With our expertise in cloud environments such as AWS, Azure, and GCP, we can provide a skilled Lead Software Engineer who meets your 8-year experience requirement. Our team has hands-on experience in technical architecture design and development of demand or inventory planning products/applications, including Integrated Business Planning solutions like O9.
->
-> [Portfolio Links and Further Details]
+## Interface of the ColdMailGenerator 
+![Interface]((https://github.com/hari250823/private/blob/main/1.png))
 
 ## Requirements
 
